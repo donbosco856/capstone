@@ -46,25 +46,11 @@ svg{
     
 }
 
+.profile-img{
+    height: 400px;
+ }
 
-@media screen and (max-width:768px) {
-
-    .icons{
-        display: flex;
-        margin-top: 0px;
-    }
-
-    .icons > div{
-        flex-grow: 1;
-    }
-
-    .title{
-        font-size: 30px;
-    }
-    
-}
-
-.title{
+ .title{
     font-family: 'Cinzel', serif;
     font-size: 60px;
 }
@@ -80,4 +66,34 @@ svg{
    /* text-decoration: underline;
    text-decoration-color: #0000ffd7; */
 }
+
+
+
+
+@media (max-width:768px) {
+
+    .icons{
+        display: flex;
+        margin-top: 0px;
+    }
+
+    .icons > div{
+        flex-grow: 1;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .profile-img{
+        height: 200px;
+    }
+
+    .hero-ctnr{
+        padding-top: 50px;
+    }
+    
+}
+
+
 
