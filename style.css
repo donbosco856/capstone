@@ -47,8 +47,10 @@ svg{
 }
 
 .profile-img{
-    height: 400px;
+    max-width: 100%;
+    height: auto;
  }
+
 
  .title{
     font-family: 'Cinzel', serif;
@@ -92,6 +94,7 @@ svg{
     .hero-ctnr{
         padding-top: 50px;
     }
+    
     
 }
 
