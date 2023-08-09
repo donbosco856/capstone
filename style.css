@@ -23,8 +23,7 @@ body{
 
 
 svg{
-    min-height: 30px;
-    max-height: 50px;
+   max-height: 50px;
 }
 
 #hero{
@@ -95,7 +94,10 @@ svg{
         padding-top: 50px;
     }
     
-    
+    svg{
+        min-height: 30px;
+        max-height: 50px;
+    }
 }
 
 
